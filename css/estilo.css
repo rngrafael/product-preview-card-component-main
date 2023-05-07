@@ -23,25 +23,101 @@ html, body{
 
 
 #area-produto{
-	border: 1px solid #000;
 	width: 386px;
-	height: 350px;
-	margin: -40px auto;
+	height: 290px;
+	margin: -8px auto;
 	border-radius: 8px;
 }
 
 
 img{
 	width: 193px;
-	height: 350px;
+	height: 314px;
 	float: left;
 	border-radius: 8px 0 0 8px;
 }
 
 #area-texto{
-	width: 190px;
-	height: 350px;
+	width: 192px;
+	height: 314px;
+	background-color: hsl(0, 0%, 100%);
 	float: right;
 	border-radius: 0 8px 8px 0;
-	border: 1px solid red;
+	box-sizing: border-box;
+	padding: 15px;
+	
+}
+
+
+
+.preco{
+	box-sizing: border-box;
+	height: 84px;
+	margin: 18px 0;
+}
+
+input{
+	width: 100%;
+	height: 36px;
+	border-radius: 5px;
+	background-image: url(../images/icon-cart.svg);
+	background-color: hsl(158, 36%, 37%); 
+	background-repeat: no-repeat;
+	background-position: 24px center;
+	color: hsl(0, 0%, 100%);
+	margin: 10px 0;
+	font-family: 'Montserrat', sans-serifs;
+	font-size: 11px;
+	border: none;
+}
+
+input:hover{
+	background-color: #2e4328;efeito hover
+}
+
+h4{
+	font-family: 'Montserrat', sans-serifs;
+	color: hsl(228, 12%, 48%);
+	font-size: 10px;
+
+}
+
+h1{
+	font-family: 'Fraunces', serif;
+	color: hsl(212, 21%, 14%);
+	font-size: 22px;
+	margin: 6px 0 6px 0;
+}
+
+p{
+	font-family: 'Montserrat', sans-serifs;
+	color: hsl(228, 12%, 48%);
+	font-size: 10px;
+	margin-top: 10px;
+	line-height: 1.6;
+
+
+}
+
+span{
+	font-family: 'Fraunces', serif;
+	margin: 0 5px auto 5px;
+}
+
+#preco-final{
+	color: hsl(158, 36%, 37%);
+	font-size: 24px;
+	float: left;
+
+}
+
+#preco-original{
+	color: hsl(228, 12%, 48%);
+	float: right;
+	margin-top: 6px;
+	margin-right: 18px;
+}
+
+span s{
+	font-size: 10px;
 }
