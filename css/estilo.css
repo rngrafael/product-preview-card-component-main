@@ -121,3 +121,10 @@ span{
 span s{
 	font-size: 10px;
 }
+
+.attribution{
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
