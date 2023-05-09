@@ -76,7 +76,7 @@ input{
 }
 
 input:hover{
-	background-color: #2e4328;efeito hover
+	background-color: #2e4328;
 }
 
 h4{
@@ -171,6 +171,10 @@ span s{
 
   	#preco-original{
 	margin-right: 142px;
-}
+	}
+
+	input{
+		background-position: 90px center;
+	}
 }
 
