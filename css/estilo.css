@@ -26,16 +26,20 @@ html, body{
 	width: 386px;
 	height: 290px;
 	margin: -8px auto;
+	position: relative;
 	border-radius: 8px;
 }
 
-
-img{
+#img{
+	background-image: url(../images/image-product-desktop.jpg);
+	background-size: cover;
 	width: 193px;
 	height: 314px;
 	float: left;
 	border-radius: 8px 0 0 8px;
 }
+
+
 
 #area-texto{
 	width: 192px;
@@ -128,3 +132,45 @@ span s{
     bottom: 0;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 724px) {
+
+	#img{
+		background-image: url(../images/image-product-mobile.jpg);
+		border-radius: 8px 8px 0 0;
+		width: 320px;
+		height: 200px;
+	}
+
+
+	#area-produto{
+		width: 386px;
+		height: 290px;
+		position: relative;
+		margin: -66px 20px auto -66px;
+		border-radius: 8px;
+	}
+
+	#area-texto{
+		width: 320px;
+		height: 280px;
+		border-radius: 0 0 8px 8px;
+		float: left;
+	}
+
+	h1{
+		font-size: 28px;
+	}
+  
+
+  	#caixa-principal{
+  		height: 552px;
+  		position: relative;
+  	}
+
+  	#preco-original{
+	margin-right: 142px;
+}
+}
+
