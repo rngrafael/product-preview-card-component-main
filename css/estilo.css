@@ -134,26 +134,26 @@ span s{
 }
 
 
-@media only screen and (max-width: 724px) {
+@media only screen and (max-width: 720px) {
 
 	#img{
 		background-image: url(../images/image-product-mobile.jpg);
 		border-radius: 8px 8px 0 0;
-		width: 454px;
+		width: 378px;
 		height: 322px;
 	}
 
 
 	#area-produto{
-		width: 454px;
+		width: 378px;
 		height: 620px;
 		position: relative;
-		margin: -70px auto auto -90px;
+		margin: -90px auto auto -90px;
 		border-radius: 8px;
 	}
 
 	#area-texto{
-		width: 454px;
+		width: 378px;
 		height: 298px;
 		border-radius: 0 0 8px 8px;
 		float: left;
@@ -172,7 +172,7 @@ span s{
   	}
 
   	#preco-original{
-	margin-right: 260px;
+	margin-right: 200px;
 	}
 
 	input{
