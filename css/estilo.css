@@ -198,17 +198,18 @@ span s{
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 360px) {
 
 	#area-produto{
 		width: 332px;
-		top: -20px;
-		left: -90px;
+		top: -18px;
+		left: -96px;
 		
 	}
 
 	#img{
 		width: 332px;
+		height: 322px;
 	}
 
 	#area-texto{
@@ -220,9 +221,7 @@ span s{
 	margin-right: 144px;
 	}
 
-	.attribution{
-    bottom: 20px;
-}
+
 
 }
 
