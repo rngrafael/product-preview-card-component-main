@@ -139,10 +139,10 @@ span s{
 		#area-produto{
 		width: 400px;
 		height: 620px;
-		top: -20px;
+		top: -2px;
 		left: -56px;
 		position: relative;
-		margin: -80px auto;
+		margin: -70px auto;
 		border-radius: 8px;
 	}
 
@@ -198,11 +198,31 @@ span s{
 }
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
 
 	#area-produto{
-		margin: -90px -90px;
+		width: 332px;
+		top: -20px;
+		left: -90px;
+		
 	}
+
+	#img{
+		width: 332px;
+	}
+
+	#area-texto{
+		width: 332px;
+		
+	}
+
+	#preco-original{
+	margin-right: 144px;
+	}
+
+	.attribution{
+    bottom: 20px;
+}
 
 }
 
